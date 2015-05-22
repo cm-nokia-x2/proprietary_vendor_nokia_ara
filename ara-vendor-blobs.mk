@@ -66,18 +66,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/nokia/ara/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/nokia/ara/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libalsautils.so:system/vendor/lib/libalsautils.so \
     vendor/nokia/ara/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nokia/ara/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/nokia/ara/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nokia/ara/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/nokia/ara/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nokia/ara/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/nokia/ara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nokia/ara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nokia/ara/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nokia/ara/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nokia/ara/proprietary/lib/libcdcc.so:system/lib/libcdcc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
@@ -297,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libNIPS_NokiaIPA.so:system/vendor/lib/libNIPS_NokiaIPA.so \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -444,7 +445,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
     vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libNIPS_NokiaIPA.so:system/vendor/lib/libNIPS_NokiaIPA.so \
     vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdnshostprio.so:system/vendor/lib/libdnshostprio.so \
     vendor/nokia/ara/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \

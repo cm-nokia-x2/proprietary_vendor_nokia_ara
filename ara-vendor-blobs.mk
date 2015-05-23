@@ -66,18 +66,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/nokia/ara/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/nokia/ara/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libalsautils.so:system/vendor/lib/libalsautils.so \
     vendor/nokia/ara/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nokia/ara/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/nokia/ara/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nokia/ara/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/nokia/ara/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nokia/ara/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/nokia/ara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nokia/ara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nokia/ara/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nokia/ara/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nokia/ara/proprietary/lib/libcdcc.so:system/lib/libcdcc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
@@ -297,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libNIPS_NokiaIPA.so:system/vendor/lib/libNIPS_NokiaIPA.so \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -315,42 +316,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/nokia/ara/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/nokia/ara/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/nokia/ara/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/nokia/ara/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/nokia/ara/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/nokia/ara/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/nokia/ara/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/nokia/ara/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/nokia/ara/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/nokia/ara/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/nokia/ara/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/nokia/ara/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/nokia/ara/proprietary/etc/msap.conf:system/etc/msap.conf \
-    vendor/nokia/ara/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/nokia/ara/proprietary/etc/quipc.conf:system/etc/quipc.conf \
-    vendor/nokia/ara/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/nokia/ara/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/nokia/ara/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/nokia/ara/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/nokia/ara/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/nokia/ara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/nokia/ara/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/nokia/ara/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/nokia/ara/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/nokia/ara/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/nokia/ara/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/nokia/ara/proprietary/system/lib/libloc_api_v02.so:system/system/lib/libloc_api_v02.so \
+    vendor/nokia/ara/proprietary/system/lib/libloc_ds_api.so:system/system/lib/libloc_ds_api.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/libgeofence.so:system/system/vendor/lib/libgeofence.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/libizat_core.so:system/system/vendor/lib/libizat_core.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/liblbs_core.so:system/system/vendor/lib/liblbs_core.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/liblocationservice.so:system/system/vendor/lib/liblocationservice.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/libquipc_os_api.so:system/system/vendor/lib/libquipc_os_api.so \
+    vendor/nokia/ara/proprietary/system/vendor/lib/libulp2.so:system/system/vendor/lib/libulp2.so \
     vendor/nokia/ara/proprietary/bin/nemod:system/bin/nemod \
     vendor/nokia/ara/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/nokia/ara/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -444,7 +417,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
     vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libNIPS_NokiaIPA.so:system/vendor/lib/libNIPS_NokiaIPA.so \
     vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdnshostprio.so:system/vendor/lib/libdnshostprio.so \
     vendor/nokia/ara/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \

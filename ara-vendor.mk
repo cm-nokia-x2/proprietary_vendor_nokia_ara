@@ -22,7 +22,6 @@ $(call inherit-product, vendor/nokia/ara/ara-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    com.qualcomm.services.location \
     qcrilmsgtunnel \
     TimeService
 

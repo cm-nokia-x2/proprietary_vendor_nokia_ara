@@ -316,14 +316,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/nokia/ara/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/nokia/ara/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/nokia/ara/proprietary/system/lib/libloc_api_v02.so:system/system/lib/libloc_api_v02.so \
-    vendor/nokia/ara/proprietary/system/lib/libloc_ds_api.so:system/system/lib/libloc_ds_api.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/libgeofence.so:system/system/vendor/lib/libgeofence.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/libizat_core.so:system/system/vendor/lib/libizat_core.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/liblbs_core.so:system/system/vendor/lib/liblbs_core.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/liblocationservice.so:system/system/vendor/lib/liblocationservice.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/libquipc_os_api.so:system/system/vendor/lib/libquipc_os_api.so \
-    vendor/nokia/ara/proprietary/system/vendor/lib/libulp2.so:system/system/vendor/lib/libulp2.so \
+    vendor/nokia/ara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/nokia/ara/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/nokia/ara/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/nokia/ara/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/nokia/ara/proprietary/bin/nemod:system/bin/nemod \
     vendor/nokia/ara/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/nokia/ara/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \

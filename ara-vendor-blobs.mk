@@ -72,6 +72,28 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/nokia/ara/proprietary/bin/mm-jpeg-dec-test:system/bin/mm-jpeg-dec-test \
+    vendor/nokia/ara/proprietary/bin/mm-jpeg-enc-test:system/bin/mm-jpeg-enc-test \
+    vendor/nokia/ara/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
+    vendor/nokia/ara/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
+    vendor/nokia/ara/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
+    vendor/nokia/ara/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
+    vendor/nokia/ara/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
+    vendor/nokia/ara/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
+    vendor/nokia/ara/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
+    vendor/nokia/ara/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
+    vendor/nokia/ara/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/0107A302.dcc:system/etc/camera/dcc/0107A302.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/0107A303.dcc:system/etc/camera/dcc/0107A303.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B01.dcc:system/etc/camera/dcc/010B8B01.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B02.dcc:system/etc/camera/dcc/010B8B02.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B03.dcc:system/etc/camera/dcc/010B8B03.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B04.dcc:system/etc/camera/dcc/010B8B04.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/0C563A03.dcc:system/etc/camera/dcc/0C563A03.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/115B6002.dcc:system/etc/camera/dcc/115B6002.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/11F50900.dcc:system/etc/camera/dcc/11F50900.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dcc/11F50901.dcc:system/etc/camera/dcc/11F50901.dcc \
+    vendor/nokia/ara/proprietary/etc/camera/dfc/05000300.dfc:system/etc/camera/dfc/05000300.dfc \
     vendor/nokia/ara/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/nokia/ara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nokia/ara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \

@@ -457,4 +457,16 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so
+    vendor/nokia/ara/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/nokia/ara/proprietary/bin/NVUpdater:system/bin/NVUpdater \
+    vendor/nokia/ara/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
+    vendor/nokia/ara/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
+    vendor/nokia/ara/proprietary/lib/hw/audio_policy.msm8610.so:system/lib/hw/audio_policy.msm8610.so \
+    vendor/nokia/ara/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+    vendor/nokia/ara/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/nokia/ara/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/nokia/ara/proprietary/vendor/lib/libalsautils.so:system/vendor/lib/libalsautils.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/nokia/ara/proprietary/etc/snd_soc_msm/snd_soc_msm_8x10_wcd:system/etc/snd_soc_msm/snd_soc_msm_8x10_wcd \
+    vendor/nokia/ara/proprietary/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuaa:system/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuaa \
+    vendor/nokia/ara/proprietary/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuab:system/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuab

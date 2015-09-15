@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nokia/ara/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nokia/ara/proprietary/bin/radish:system/bin/radish \
     vendor/nokia/ara/proprietary/bin/rfs_access:system/bin/rfs_access \

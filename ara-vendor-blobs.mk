@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/nokia/ara/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/nokia/ara/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/nokia/ara/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/nokia/ara/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/nokia/ara/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \

@@ -377,7 +377,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/nokia/ara/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/nokia/ara/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/nokia/ara/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/nokia/ara/proprietary/etc/firmware/isdbt_zico.inp:system/etc/firmware/isdbt_zico.inp \
     vendor/nokia/ara/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/nokia/ara/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \

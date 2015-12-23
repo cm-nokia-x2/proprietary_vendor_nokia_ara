@@ -19,16 +19,21 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nokia/ara/overlay
 
 $(call inherit-product, vendor/nokia/ara/ara-vendor-blobs.mk)
 
-# Prebuilt APKs
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    TimeService
+    shutdownlistener
 
-# Prebuilt jars
 PRODUCT_PACKAGES += \
-    com.qualcomm.location.vzw_library \
-    nemosrv \
-    qcnvitems \
-    qcrilhook
-
+    libtime_genoff \
+    libTimeService \
+    TimeService \
+    libscale \
+    libmdmdetect \
+    libperipheral_client \
+    libqmiservices \
+    libqmi \
+    libqcci_legacy \
+    libqmi_client_qmux \
+    libqmi_csi \
+    libqmi_cci \
+    libqmi_common_so \
+    libdsi_netctrl

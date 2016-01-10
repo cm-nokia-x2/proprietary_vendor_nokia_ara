@@ -375,12 +375,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nokia/ara/proprietary/bin/radish:system/bin/radish \
     vendor/nokia/ara/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/nokia/ara/proprietary/bin/rild:system/bin/rild \
     vendor/nokia/ara/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nokia/ara/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/nokia/ara/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nokia/ara/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/nokia/ara/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/nokia/ara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \

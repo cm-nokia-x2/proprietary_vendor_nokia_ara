@@ -344,7 +344,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nokia/ara/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/nokia/ara/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -360,7 +359,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/nokia/ara/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nokia/ara/proprietary/bin/radish:system/bin/radish \
     vendor/nokia/ara/proprietary/bin/rfs_access:system/bin/rfs_access \
@@ -368,9 +367,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/nokia/ara/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nokia/ara/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/nokia/ara/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/nokia/ara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nokia/ara/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/nokia/ara/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/nokia/ara/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -419,7 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/nokia/ara/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdnshostprio.so:system/vendor/lib/libdnshostprio.so \
     vendor/nokia/ara/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \

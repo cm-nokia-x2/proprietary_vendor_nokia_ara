@@ -23,6 +23,7 @@ $(call inherit-product, vendor/nokia/ara/ara-vendor-blobs.mk)
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    shutdownlistener \
     TimeService
 
 # Prebuilt jars

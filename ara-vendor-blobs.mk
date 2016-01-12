@@ -340,11 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nokia/ara/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/nokia/ara/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/nokia/ara/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/nokia/ara/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/nokia/ara/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/nokia/ara/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/nokia/ara/proprietary/bin/nemod:system/bin/nemod \
     vendor/nokia/ara/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nokia/ara/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \

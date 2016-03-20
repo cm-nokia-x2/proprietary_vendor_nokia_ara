@@ -330,7 +330,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/nokia/ara/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/nokia/ara/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/nokia/ara/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/nokia/ara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nokia/ara/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/nokia/ara/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \

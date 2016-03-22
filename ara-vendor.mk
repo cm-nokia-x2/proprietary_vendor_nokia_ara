@@ -21,14 +21,12 @@ $(call inherit-product, vendor/nokia/ara/ara-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    com.qualcomm.location.vzw_library \
     nemosrv \
     qcnvitems \
     qcrilhook

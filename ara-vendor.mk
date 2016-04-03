@@ -22,7 +22,6 @@ $(call inherit-product, vendor/nokia/ara/ara-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
     TimeService
 
 # Prebuilt jars
